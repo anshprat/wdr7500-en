@@ -1,0 +1,180 @@
+<ul id = "PPPoEHelp" class = "help">
+<li class = "title"> Broadband dial-up Internet access </ li>
+<li class = "content"> Use the broadband account and password provided by the operator to access the Internet. </ li>
+<li class = "title"> Broadband account / Broadband password </ li>
+<li class = "content"> Broadband account and password provided by the operator. </ li>
+</ ul>
+<ul id = "PPPoEAdvHelp" class = "help">
+<li class = "title"> Dialing mode </ li>
+<li class = "content"> Special handling is required for carrier lines in certain regions, and it is recommended to keep the default "Automatic dial-up mode selection". </ li>
+<li class = "title"> Connection mode </ li>
+<li class = "content"> Automatic connection: The router connects automatically. During use, if the network is disconnected due to external reasons, the router will try to reconnect every 10 seconds until it is connected. </ li>
+<li class = "content"> On-demand connection: The router will automatically connect when there is a network access request, and it will automatically disconnect when it detects that there is no network access request for 10 minutes. </ li>
+<li class = "content"> Manual connection: You need to manually click the "connect" and "disconnect" buttons to disconnect the broadband dial-up connection. </ li>
+<li class = "title"> Data packet MTU </ li>
+<li class = "content"> The maximum transmission unit of the data packet, which can be set in the range of 576 to 1492. </ li>
+<li class = "title"> Service Name / Server Name </ li>
+<li class = "content"> If not required by the operator, please do not fill it. </ li>
+<li class = "title"> WAN port rate </ li>
+<li class = "content"> Set the speed and duplex mode of the WAN port. </ li>
+<li class = "content"> Broadband lines in individual cells are forced to 10 Mbps, causing the router to fail to function normally. At this time, you can solve the problem by forcing the WAN port speed to 10 Mbps. </ li>
+<li class = "title"> WAN port MAC address </ li>
+<li class = "content"> Set the MAC address of the router to the WAN. Generally, this address does not need to be changed. Operators in some regions will bind the line to the MAC address and provide a "valid MAC address". At this time, only when the MAC address of the WAN port is set to the "valid MAC address" can the Internet be shared and accessed normally. </ li>
+</ ul>
+
+<ul id = "PPPoEServerDeadHelp" class = "help">
+<li class = "title"> Please confirm that the network cable is connected properly </ li>
+<li class = "content"> Please confirm whether the network cable connection is normal according to the illustration of the router's manual (the connection method is usually: telephone line → ADSLModem → router WAN port, if it is fiber access: fiber → optical cat → router WAN Port), at the same time check whether the network cable, telephone line or optical fiber connector is connected, and check whether the status of the indicator light corresponding to the connection port of each device is always on or flashing.
+</ li>
+<li class = "content">
+If the line connection is correct but the router still cannot dial successfully, please remove the router, connect the computer directly to the broadband line (such as ADSL Modem, optical cat), and dial-up test on the computer (Note: Please re-fill the broadband account in the broadband connection when dialing And password), if:
+</ li>
+<li class = "titleList"> ■ Computer dialing still unsuccessful, please contact your operator to check if the line is normal; </ li>
+<li class = "titleList"> ■ The computer can dial successfully, please refer to the following help information: </ li>
+<ul class = "listNum">
+<li class = "title"> Please try to clone the MAC address before saving it again for dialing </ li>
+<p> <a href="javascript:void(0)" onclick="cloneCurHostMac()"> >>> Click here to clone the MAC address of this computer </a> </ p>
+<li class = "title"> Please contact your carrier to confirm whether the Internet access method is broadband dial-up Internet access </ li>
+<li class = "title"> Please wait a few minutes before saving again for dialing </ li>
+</ ul>
+</ ul>
+<ul id = "PPPoENPErrHelp" class = "help">
+<li class = "title"> Please confirm whether the broadband account and broadband password are filled in correctly </ li>
+<li class = "content"> When filling in your broadband account and password, please pay attention to distinguishing between upper and lower case and similar letters and numbers (such as the letter "z" and the letter "Z", the letter "o" and the number "0", and the letter " l "and the number" 1 "), please fill in the Internet account with a suffix (for example, the broadband account is" 0755911@163.gd ", you cannot fill in" 0755911 "only).
+</ li>
+<li class = "content"> If it is confirmed that the Internet account and password are filled in correctly but the router dial-up still prompts the error, please remove the router, connect the computer directly to the broadband line (such as ADSLModem, optical cat), dial-up test on the computer, if at this time:
+</ li>
+<li class = "titleList"> ■ Computer dialing still unsuccessful, please contact your operator to confirm the broadband account and password; </ li>
+<li class = "titleList"> ■ The computer can dial successfully. Please refer to the help information below. </ li>
+<ul class = "listNum">
+<li class = "title"> Please try to clone the MAC address before saving it again for dialing </ li>
+<p> <a href="javascript:void(0)" onclick="cloneCurHostMac()"> >>> Click here to clone the MAC address of this computer </a> </ p>
+<li class = "title"> Please wait a few minutes before saving again for dialing </ li>
+</ ul>
+</ ul>
+<ul id = "PPPoEOtherErrHelp" class = "help">
+<li class = "content"> Please connect your computer to a broadband line (such as ADSL Modem, Optical Cat) directly, dial the test on the computer, if this: </ li>
+<li class = "titleList"> ■ Computer dialing still unsuccessful, please contact your operator to check if the line is normal; </ li>
+<li class = "titleList">
+■ The computer can dial successfully. Please restore the ADSL Modem or the optical cat and router to the factory default settings (press and hold the Reset button while the power is on),
+Then reconnect the line and set the dial as instructed in the product manual.
+</ li>
+<li class = "content">
+If you are still prompted with this message, please send your questions and system logs to the TP-LINK technical support email fae@tp-link.com.cn,
+(<a href="javascript:void(0)" onclick="logSave()"> >>> Click here to save the system log </a>) or contact the TP-LINK technical support hotline 400-8863-400 for consultation Solution.
+</ li>
+</ ul>
+
+<ul id = "dhcpServerHelp" class = "help">
+<li class = "title"> DHCP server </ li>
+<li class = "content"> The DHCP server can automatically assign TCP / IP protocol parameters such as IP and subnet mask to the devices in the LAN. The DHCP server has three states, which are “On”, “Off”, and “Auto”. When the “Auto” state is used, the router will detect whether another DHCP server exists in the LAN. If it exists, it will shut itself down. DHCP server. </ li>
+<li class = "title"> Address pool start / end addresses </ li>
+<li class = "content"> The start / end address of the IP automatically assigned by the DHCP server. </ li>
+<li class = "title"> Address lease period </ li>
+<li class = "content"> The valid time of the automatically assigned IP. After this time, the devices in the LAN will obtain the IP again. </ li>
+<li class = "title"> Gateway </ li>
+<li class = "content"> Optional. The default is 0.0.0.0. The effective gateway is the IP address of the LAN port of the router. </ li>
+<li class = "title"> DNS server </ li>
+<li class = "content"> Optional, if the operator has provided the DNS server address, please fill in here. </ li>
+</ ul>
+
+<ul id = "wlanNetworkHelp" class = "help">
+<li class = "title"> Wireless name </ li>
+<li class = "content"> The wireless (Wi-Fi) name of the router. </ li>
+<li class = "title"> Wireless password </ li>
+<li class = "content"> Wireless encryption uses WPA2-PSK / WPA-PSK encryption method and AES encryption algorithm. The wireless password is 8 to 63 characters, preferably a combination of numbers, letters, and symbols. </ li>
+<li class = "title"> Wireless channel </ li>
+<li class = "content"> The wireless data signal transmission channel, it is recommended to keep the default automatic, at this time the router will automatically select a best channel according to the surrounding wireless environment. </ li>
+<li class = "title"> Wireless Mode </ li>
+<li class = "content"> The wireless mode in which the router works. </ li>
+<li class = "title"> Bandwidth </ li>
+<li class = "content"> The width of the frequency band over which the router transmits wireless data. </ li>
+</ ul>
+
+<ul id = "PLCHelp" class = "help">
+<li class = "title"> PLC </ li>
+<li class = "content"> Power Line Communication refers to a communication method that uses low-voltage power distribution lines to transmit high-speed data, voice, and image signals. </ li>
+<li class = "title"> MAC address </ li>
+<li class = "content"> The physical address of the PLC. </ li>
+<li class = "title"> Network name </ li>
+<li class = "content"> The wireless name is similar to wireless. Only when two PLC devices have the same network name can the two devices perform power line communication. </ li>
+</ ul>
+
+<ul id = "dynamicIpHelp" class = "help">
+<li class = "title"> Automatically get an IP address to go online </ li>
+<li class = "content"> Use the temporary IP dynamically allocated by the operator to access the Internet. </ li>
+<li class = "title"> IP address, subnet mask, gateway </ li>
+<li class = "content"> Internet parameters dynamically assigned by the operator. </ li>
+</ ul>
+<ul id = "dynamicIpAdvHelp" class = "help">
+<li class = "title"> Data packet MTU </ li>
+<li class = "content"> The maximum transmission unit of a data packet, which can be set in the range of 576 to 1500. </ li>
+<li class = "title"> DNS server </ li>
+<li class = "content"> The operator will automatically assign a DNS server, and you can set it manually if needed. </ li>
+<li class = "title"> Host name </ li>
+<li class = "content"> If not specifically requested by the operator, please do not modify it. </ li>
+<li class = "title"> WAN port rate </ li>
+<li class = "content"> Set the speed and duplex mode of the WAN port. The broadband line of some cells is forced to 10 Mbps, which causes the router to fail to work normally. At this time, you can solve the problem by forcing the WAN port speed to 10 Mbps. </ li>
+<li class = "title"> WAN port MAC address </ li>
+<li class = "content"> Set the MAC address of the router to the WAN. Generally, this address does not need to be changed. Operators in some regions will bind the line to the MAC address and provide a "valid MAC address". At this time, only when the MAC address of the WAN port is set to the "valid MAC address" can the Internet be shared and accessed normally. </ li>
+</ ul>
+
+<ul id = "lanHelp" class = "help">
+<li class = "title"> MAC address </ li>
+<li class = "content"> The MAC address of the router to the LAN. </ li>
+<li class = "title"> LAN port IP parameters </ li>
+<li class = "content"> Supports automatic retrieval and manual settings. </ li>
+<li class = "content"> When set to automatic acquisition, it has LAN-WAN conflict detection mechanism, which mainly manifests as follows: When the IP address obtained by the router WAN port and the LAN port IP address are on the same network segment, the router LAN port IP address will Automatically change to another network segment. If the default IP address of the LAN port of the router is 192.168.1.1, and the IP address obtained by the WAN port is 192.168.1.X, the IP address of the LAN port will automatically change to 192.168.0.1. When using the WDS function, the LAN port parameters will be dynamically obtained from the local area network. If the acquisition times out, the IP address is set to 192.168.1.1 and the subnet mask is set to 255.255.255.0. </ li>
+<li class = "content"> When set manually, the LAN port parameters are set values ​​on the page and will not be modified automatically.
+</ li>
+<li class = "title"> IP address </ li>
+<li class = "content"> The IP address of the router to the local area network. </ li>
+<li class = "title"> Subnet mask </ li>
+<li class = "content"> The subnet mask of the router to the local area network, generally 255.255.255.0. </ li>
+<li class = "warnning"> Note: </ li>
+<li class = "warnning"> 1. After the IP address of the LAN port is changed, the applications related to the LAN port IP, such as the virtual server and the DMZ host, will be invalidated. </ li>
+<li class = "warnning"> 2. After the LAN port IP address is changed, you can still log in to the router management page through the domain name "tplogin.cn". </ li>
+<li class = "warnning"> 3. To ensure that the devices connected to the router can access the Internet normally, it is recommended that the devices be configured to obtain IP addresses dynamically. If the device has a fixed IP address, please change the IP address and gateway of the device according to the IP address after the LAN port is changed. </ li>
+</ ul>
+
+<ul id = "macCloneHelp" class = "help">
+<li class = "title"> This function can set the MAC address of the router to the WAN. Generally, this address does not need to be changed, but operators in some regions will bind the line with the MAC address. At this time, the operator will provide A "valid MAC address", you need to set the MAC address to this "valid MAC address" through this function in order to share the Internet normally.
+</ li>
+</ ul>
+
+<ul id = "routeTableHelp" class = "help">
+<li class = "title"> The routing function can set a static routing entry. When the packet matches the static route successfully, it will be forwarded according to the specified path. </ li>
+<li class = "title"> Destination network address </ li>
+<li class = "content"> The address to which the packet needs to arrive. </ li>
+<li class = "title"> Subnet mask </ li>
+<li class = "content"> Subnet mask of the destination address. </ li>
+<li class = "title"> Next hop address </ li>
+<li class = "content"> The next router address that can be forwarded directly before the packet reaches the destination address. </ li>
+</ ul>
+
+<ul id = "staticIpHelp" class = "help">
+<li class = "title"> Fixed IP address </ li>
+<li class = "content"> Use the fixed IP provided by the operator to access the Internet. </ li>
+<li class = "title"> IP address, subnet mask, gateway, DNS server </ li>
+<li class = "content"> The Internet parameters to be filled in using a fixed IP address for Internet access are provided by your operator. </ li>
+</ ul>
+<ul id = "staticIpAdvHelp" class = "help">
+<li class = "title"> Data packet MTU </ li>
+<li class = "content"> The maximum transmission unit of a data packet, which can be set in the range of 576 to 1500. </ li>
+<li class = "title"> WAN port rate </ li>
+<li class = "content"> Set the speed and duplex mode of the WAN port. The broadband line of some cells is forced to 10 Mbps, which causes the router to fail to work normally. At this time, you can solve the problem by forcing the WAN port speed to 10 Mbps. </ li>
+<li class = "title"> WAN port MAC address </ li>
+<li class = "content"> Set the MAC address of the router to the WAN. Generally, this address does not need to be changed. Operators in some regions will bind the line to the MAC address and provide a "valid MAC address". At this time, only when the MAC address of the WAN port is set to the "valid MAC address" can the Internet be shared and accessed normally. </ li>
+</ ul>
+
+<ul id = "sysUpgradeHelp" class = "help">
+<li class = "title"> Upgrade steps </ li>
+<ul class = "listNum">
+<li> Visit the official TP-LINK website <a target="blank" href="http://www.tp-link.com.cn"> www.tp-link.com.cn </a> and download the corresponding Upgrade software for current hardware version; </ li>
+<li> Click the "Browse" button and select the upgrade file downloaded in step 1; </ li>
+<li> Click the "Software Upgrade" button to upgrade the software; </ li>
+<li> After the upgrade is complete, the router will restart automatically. </ li>
+</ ul>
+</ ul>
+<script type="text/javascript">function cloneCurHostMac(){function e(a){a=a[uciNetwork.fileName][uciNetwork.dynData.ifaceMac][uciNetwork.optValue.ifname.host];var b={},c={},d={};b[uciProto.fileName]=c;c[uciProto.secName.wan]=d;d[uciProto.optName.macaddr]=a;$.modify(b,null,!0)}(function(){var a={};a[uciNetwork.fileName]={};a[uciNetwork.fileName][KEY_NAME]=[uciNetwork.dynData.ifaceMac];$.query(a,e)})()};
+</script>
