@@ -5,15 +5,15 @@ server {
 
 
     location /web-static/language/cn/str.js {
-    proxy_pass http://10.10.10.104:8081/web-static/language/cn/str.js;
+    proxy_pass http://LOCAL_IP:8081/web-static/language/cn/str.js;
     }
 
     location /stok=3efec6ba6139ba41d35544c2eff04224/pc/Help.htm {
-    proxy_pass http://10.10.10.104:8081/stok=3efec6ba6139ba41d35544c2eff04224/pc/Help.htm;
+    proxy_pass http://LOCAL_IP:8081/stok=3efec6ba6139ba41d35544c2eff04224/pc/Help.htm;
     }
 
     location /proxy.pac {
-    proxy_pass http://10.10.10.104:8081/proxy.pac;
+    proxy_pass http://LOCAL_IP:8081/proxy.pac;
     }
 
     location / {

@@ -8,7 +8,7 @@ However some second level translations are still not in place.
  This is because those are part of inline code rather than standalone files.
 
 
-To use this, update 10.10.10.103 with the IP of your local laptop/desktop where
+To use this, update 10.10.10.107 with the IP of your local laptop/desktop where
 you want to run the proxy/ docker file.
 
 The docker is used to serve nginx. This can be done without docker as well.
