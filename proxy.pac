@@ -22,5 +22,7 @@ function FindProxyForURL(url, host) {
                       return ssh_proxy;
                   if (dnsDomainIs(host, ".stg-grabpay.com"))
                       return ssh_proxy;
+                      if (dnsDomainIs(host, ".grabsecurity.com"))
+                          return ssh_proxy;
     return "DIRECT";
 }
